@@ -9,16 +9,16 @@ from . import nodes
 from .gather_properties import gather_properties, gather_lightmap_texture_info
 
 bl_info = {
-    "name" : "Hubs Blender Exporter",
-    "author" : "MozillaReality",
-    "description" : "Tools for developing GLTF assets for Mozilla Hubs",
+    "name" : "Estraad Blender Exporter",
+    "author" : "Estraad",
+    "description" : "Tools for developing GLTF assets for Estraad",
     "blender" : (2, 93, 4),
-    "version" : (0, 0, 13),
+    "version" : (0, 0, 1),
     "location" : "",
-    "wiki_url": "https://github.com/MozillaReality/hubs-blender-exporter",
-    "tracker_url": "https://github.com/MozillaReality/hubs-blender-exporter/issues",
+    "wiki_url": "https://github.com/estraad/hubs-blender-exporter",
+    "tracker_url": "https://github.com/estraad/hubs-blender-exporter/issues",
     "support": "COMMUNITY",
-    "warning" : "",
+    "warning" : "This is a fork of MozillaReality Hubs Blender Exporter. This version is meant for use in the highly customised Estraad Platform. There are variations in available components in Estraad and Hubs.",
     "category" : "Generic"
 }
 
