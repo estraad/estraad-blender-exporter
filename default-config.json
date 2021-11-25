@@ -935,6 +935,24 @@
           "description": "An equirectangular image to use as the default environment map for all objects"
         }
       }
+    },
+    "model": {
+      "category": "Elements",
+      "node": true,
+      "networked": true,
+      "properties": {
+        "src": {
+          "type": "string",
+          "description": "Model URL"
+        }
+      }
+    },
+    "moveable": {
+      "category": "Elements",
+      "node": true,
+      "networked": true,
+      "properties": {
+      }
     }
   }
 }
