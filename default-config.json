@@ -111,7 +111,7 @@
       "category": "Elements",
       "node": true,
       "properties": {
-        "color": { "type": "color"},
+        "color": { "type": "color" },
         "opacity": { "type": "float", "default": 1.0 },
         "tideHeight": { "type": "float", "default": 0.01 },
         "tideScale": { "type": "vec2", "default": [1.00, 1.00] },
@@ -177,9 +177,9 @@
       "category": "Elements",
       "node": true,
       "properties": {
-        "skyColor": {"type": "color"},
-        "groundColor": {"type": "color"},
-        "intensity": {"type": "float", "default": 1.0}
+        "skyColor": { "type": "color" },
+        "groundColor": { "type": "color" },
+        "intensity": { "type": "float", "default": 1.0 }
       }
     },
     "particle-emitter": {
@@ -264,7 +264,7 @@
       "node": true,
       "properties": {
         "speed": {"type": "vec2", "default": [0, 0]},
-        "increment": {"type": "vec2", "default": [0, 0]}}
+        "increment": {"type": "vec2", "default": [0, 0]}
       }
     },
     "personal-space-invader": {
@@ -976,8 +976,7 @@
       "category": "Elements",
       "node": true,
       "networked": true,
-      "properties": {
-      }
+      "properties": {}
     }
   }
 }
