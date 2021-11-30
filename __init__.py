@@ -13,7 +13,7 @@ bl_info = {
     "author" : "Estraad",
     "description" : "Tools for developing GLTF assets for Estraad",
     "blender" : (2, 93, 4),
-    "version" : (0, 0, 1),
+    "version" : (0, 0, 2),
     "location" : "",
     "wiki_url": "https://github.com/estraad/hubs-blender-exporter",
     "tracker_url": "https://github.com/estraad/hubs-blender-exporter/issues",
