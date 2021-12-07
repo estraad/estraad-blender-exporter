@@ -3,6 +3,43 @@
   "gltfExtensionName": "MOZ_hubs_components",
   "gltfExtensionVersion": 4,
   "types": {
+    "annotation": {
+      "properties": {
+        "point": {
+          "type": "vec3",
+          "description": "Where to place the annotation, relative to the object",
+          "subType":"XYZ",
+          "default": [ 0.0, 0.0,  0.0 ]
+        },
+        "backgroundColor": {
+          "type": "color",
+          "description": "Annotation card background color",
+          "default": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "description": "Annotation text color",
+          "default": "#333333"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the annotation",
+          "default": "Thing"
+        },
+        "text": {
+          "type": "string",
+          "description": "What to put in the annotation.",
+          "default": "This is a super interesting object."
+        },
+        "fadeDistance": {"type": "int", "description": "Distance between user and object before fading", "default": 2},
+        "hideDistanceDistance": {"type": "int", "description": "Distance between user and object before hiding", "default": 4},
+        "clickthrough": {
+          "type": "bool",
+          "description": "Cursor will pass through the object when clicking on it. Useful for crowded areas where its hard to navigate camera or with annotations not having links.",
+          "default": false
+        }
+      }
+    },
     "MaterialItem": {
       "properties": {
         "value": {
@@ -526,38 +563,14 @@
         }
       }
     },
-    "annotation": {
+    "annotations": {
       "category": "Elements",
       "node": true,
       "properties": {
-        "point": {
-          "type": "vec3",
-          "description": "Where to place the annotation, relative to the object",
-          "subType":"XYZ",
-          "default": [ 0.0, 0.0,  0.0 ]
-        },
-        "backgroundColor": {
-          "type": "string",
-          "description": "Annotation card background color",
-          "default": "#ffffff"
-        },
-        "textColor": {
-          "type": "string",
-          "description": "Annotation text color",
-          "default": "#333333"
-        },
-        "title": {
-          "type": "string",
-          "description": "Title of the annotation",
-          "default": "Thing"
-        },
-        "text": {
-          "type": "string",
-          "description": "What to put in the annotation.",
-          "default": "This is a super interesting object."
-        },
-        "fadeDistance": {"type": "int", "description": "Distance between user and object before fading", "default": 2},
-        "hideDistanceDistance": {"type": "int", "description": "Distance between user and object before hiding", "default": 4}
+        "annotations": {
+          "type": "array",
+          "arrayType": "annotation"
+        }
       }
     },
     "door-animation": {

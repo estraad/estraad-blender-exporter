@@ -13,10 +13,10 @@ bl_info = {
     "author" : "Estraad",
     "description" : "Tools for developing GLTF assets for Estraad",
     "blender" : (2, 93, 4),
-    "version" : (0, 0, 1),
+    "version" : (0, 0, 3),
     "location" : "",
-    "wiki_url": "https://github.com/estraad/hubs-blender-exporter",
-    "tracker_url": "https://github.com/estraad/hubs-blender-exporter/issues",
+    "wiki_url": "https://github.com/estraad/estraad-blender-exporter",
+    "tracker_url": "https://github.com/estraad/estraad-blender-exporter/issues",
     "support": "COMMUNITY",
     "warning" : "This is a fork of MozillaReality Hubs Blender Exporter. This version is meant for use in the highly customised Estraad Platform. There are variations in available components in Estraad and Hubs.",
     "category" : "Generic"
